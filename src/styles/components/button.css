@@ -1,0 +1,22 @@
+.enter-app-button{
+  position: absolute;
+  /* left: 0;
+  bottom: 15%; */
+
+  width: 243px;
+  height: 64px;
+  background: #31B272;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.2s;
+}
+
+.enter-app-button:hover{
+  background: #3BD689;
+}

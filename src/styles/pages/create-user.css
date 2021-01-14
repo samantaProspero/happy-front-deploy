@@ -1,0 +1,60 @@
+#page-create-user{
+  width: 100vw;
+  height: 100vh;
+
+  position: relative;
+  display: flex;
+}
+
+form.login-form {
+  width: 36vw;
+  height: 100vh;
+  margin: 0 auto;
+
+  background: #FFFFFF;
+  border: 1px solid #D3E2E5;
+
+  padding: 120px 60px;
+
+  overflow: hidden;
+}
+
+form.login-form fieldset {
+  border: 0;
+}
+
+form.login-form fieldset legend {
+  width: 100%;
+
+  font-size: 32px;
+  line-height: 34px;
+  color: #5C8599;
+  font-weight: 700;
+
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+}
+
+form.login-form .input-checkbox {
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+form.login-form .input-checkbox .input-block{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form.login-form .input-checkbox input#lembrar,
+form.login-form .input-checkbox input#esqueci {
+  width: 24px;
+}
+form.login-form .input-checkbox label{
+  padding-left: 12px;
+  padding-top: 5px;
+  line-height: 20px;
+}
+

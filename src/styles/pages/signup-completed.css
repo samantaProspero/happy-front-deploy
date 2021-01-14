@@ -1,0 +1,63 @@
+#page-signup-completed{
+  width: 100vw;
+  height: 100vh;
+  background: #37C77F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#page-signup-completed .content-wrapper{
+  position: relative;
+
+  width: 100%;
+  max-width: 1100px;
+
+  height: 100%;
+  max-height: 680px;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+ 
+  background: url('../../images/eba.svg') no-repeat 80% center;
+}
+
+#page-signup-completed .content-wrapper main h1{
+  max-width: 350px;
+  font-size: 76px;
+  font-weight: 900;
+  line-height: 70px;
+  /* text-align: center; */
+}
+#page-signup-completed .content-wrapper main p{
+  max-width: 400px;
+  margin-top: 40px;
+  font-size: 24px;
+  line-height: 34px;
+  /* text-align: center; */
+}
+
+
+#page-signup-completed .content-wrapper .enter-app{
+  position: absolute;
+  left: 0;
+  bottom: 15%;
+
+  width: 243px;
+  height: 64px;
+  background: #31B272;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.2s;
+}
+
+#page-signup-completed .content-wrapper .enter-app:hover{
+  background: #3BD689;
+}
