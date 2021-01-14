@@ -1,7 +1,7 @@
 import React, { FormEvent, useState } from 'react';
-import { Link, useLocation, useHistory } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 
-import { Location } from 'history'
+// import { Location } from 'history'
 
 import '../../styles/pages/login-user.css';
 import api from '../../services/api';

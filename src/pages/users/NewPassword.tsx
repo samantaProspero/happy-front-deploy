@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import { FiArrowLeft } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
 import Input from '../../components/Input';
 import Poster from '../../components/Poster';
 import ReturnButton from '../../components/ReturnButton';
