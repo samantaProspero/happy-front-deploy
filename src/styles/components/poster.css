@@ -1,7 +1,7 @@
 #poster-dashboard{
   width: 64vw;
   background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
-  padding: 80px;
+  padding: 8.0rem;
   
   display: flex;
   flex-direction: column;
@@ -10,16 +10,32 @@
  
 }
 #poster-dashboard img{
-  width: 260px;
+  width: 26.0rem;
 }
 
 #poster-dashboard footer{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 10.0rem;
 }
 
 #poster-dashboard footer strong{
   font-weight: 800;
+}
+@media(max-width: 768px){
+  #poster-dashboard{
+    width: 100vw;
+    height: 50vh;
+    padding: 3.5rem;
+
+   
+  }
+  #poster-dashboard img{
+    width: 12.0rem;
+  }
+  
+  #poster-dashboard footer{
+    margin-top: 2.0rem;
+  }
 }

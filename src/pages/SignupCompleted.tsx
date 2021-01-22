@@ -10,8 +10,7 @@ function SignupCompleted() {
       <div className="content-wrapper">
         <main>
           <h1>Ebaaa!</h1>
-          <p>O cadastro deu certo e foi enviado ao administrador para ser aprovado. <br/>
-            Agora é só esperar :) </p>
+          <p>O cadastro deu certo e foi enviado ao administrador para ser aprovado.Agora é só esperar :)</p>
           <Link to="/users" className="enter-app">
             Voltar para o login
           </Link>

@@ -3,12 +3,12 @@
   /* left: 0;
   bottom: 15%; */
 
-  width: 243px;
-  height: 64px;
+  width: 24.3rem;
+  height: 6.4rem;
   background: #31B272;
   color: #fff;
   text-decoration: none;
-  border-radius: 20px;
+  border-radius: 2.0rem;
 
   display: flex;
   align-items: center;
@@ -19,4 +19,25 @@
 
 .enter-app-button:hover{
   background: #3BD689;
+}
+@media(max-width: 700px){
+  .enter-app-button{
+    position: absolute;
+    /* left: 0;
+    bottom: 15%; */
+  
+    width: 15rem;
+    height: 3.8rem;
+    background: #31B272;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 2.0rem;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    transition: background-color 0.2s;
+  }
+  
 }

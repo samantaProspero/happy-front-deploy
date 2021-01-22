@@ -71,8 +71,7 @@ export default function CreateOrphanage() {
 
   return (
     <div id="page-create-orphanage">
-     <Sidebar />
-
+      <Sidebar />
       <main>
         <form onSubmit={handleSubmit} className="create-orphanage-form">
           <fieldset>

@@ -48,7 +48,7 @@ function LoginUser() {
 
         <form onSubmit={handleSign} className="login-form">
           <fieldset>
-            <legend>Fazer login</legend>
+            <legend className="legend-login">Fazer login</legend>
 
             <Input type="email" label="Email" id="email" value={email} setValue={setEmail}/>
 

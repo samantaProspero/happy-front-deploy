@@ -6,7 +6,7 @@ import '../styles/pages/excluir-orfanato.css';
 
 function ExcluirOrfanato() {
   return(
-    <div id="page-signup-completed">
+    <div id="page-exclude-completed">
       <div className="content-wrapper">
         <main>
           <h1>Excluir!</h1>

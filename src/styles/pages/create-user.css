@@ -6,55 +6,99 @@
   display: flex;
 }
 
-form.login-form {
+form.create-form {
   width: 36vw;
   height: 100vh;
   margin: 0 auto;
 
   background: #FFFFFF;
-  border: 1px solid #D3E2E5;
+  border: .1rem solid #D3E2E5;
 
-  padding: 120px 60px;
+  padding: 12.0rem 6.0rem;
 
   overflow: hidden;
 }
 
-form.login-form fieldset {
+form.create-form fieldset {
   border: 0;
 }
 
-form.login-form fieldset legend {
+form.create-form fieldset legend {
   width: 100%;
 
-  font-size: 32px;
-  line-height: 34px;
+  font-size: 3.2rem;
+  line-height: 3.4rem;
   color: #5C8599;
   font-weight: 700;
 
-  margin-bottom: 40px;
-  padding-bottom: 24px;
+  margin-bottom: 4.0rem;
+  padding-bottom: 2.4rem;
 }
 
-form.login-form .input-checkbox {
+/* form.create-form .input-checkbox {
   margin: 0 auto;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
 }
-form.login-form .input-checkbox .input-block{
+form.create-form .input-checkbox .input-block{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 
-form.login-form .input-checkbox input#lembrar,
-form.login-form .input-checkbox input#esqueci {
-  width: 24px;
+form.create-form .input-checkbox input#lembrar,
+form.create-form .input-checkbox input#esqueci {
+  width: 2.4rem;
 }
-form.login-form .input-checkbox label{
-  padding-left: 12px;
-  padding-top: 5px;
-  line-height: 20px;
+form.create-form .input-checkbox label{
+  padding-left: 1.2rem;
+  padding-top: .5rem;
+  line-height: 2.0rem;
+} */
+@media(max-width: 768px){
+  #page-create-user{
+    width: 100vw;
+    height: 100vh;
+  
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #page-create-user form.create-form {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+  
+    background: #FFFF;
+    border: 1px solid #D3E2E5;
+  
+    padding: 2.0rem 2.0rem;
+  
+    overflow: hidden;
+  } 
+  
+  form.create-form fieldset legend{
+    width: 100%;
+  
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    color: #5C8599;
+    font-weight: 700;
+  
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  form.create-form .input-block + .input-block {
+    margin-top: 1rem;
+  }
+  
+  
+  form.create-form button.confirm-button {
+    height: 5rem;
+    margin-top: 1.5rem;
+  }
 }
-

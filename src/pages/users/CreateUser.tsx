@@ -37,7 +37,7 @@ export default function CreateUser() {
         <ReturnButton destination="/"/>
       <main>
 
-        <form onSubmit={handleSubmit} className="login-form">
+        <form onSubmit={handleSubmit} className="create-form">
           <fieldset>
             <legend>Cadastrar Usuário</legend>
             <Input   type="text" label="Nome" id="name" value={name} setValue={setName}/>

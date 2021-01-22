@@ -1,4 +1,4 @@
-#page-signup-completed{
+#page-exclude-completed{
   width: 100vw;
   height: 100vh;
   background: #FF669D;
@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
 }
-#page-signup-completed .content-wrapper{
+#page-exclude-completed .content-wrapper{
   position: relative;
 
   width: 100%;
@@ -23,33 +23,33 @@
   background: url('../../images/excluir.svg') no-repeat 80% center;
 }
 
-#page-signup-completed .content-wrapper main h1{
+#page-exclude-completed .content-wrapper main h1{
   max-width: 350px;
-  font-size: 76px;
+  font-size: 7.6rem;
   font-weight: 900;
-  line-height: 70px;
+  line-height: 7.0rem;
   /* text-align: center; */
 }
-#page-signup-completed .content-wrapper main p{
+#page-exclude-completed .content-wrapper main p{
   max-width: 400px;
-  margin-top: 40px;
-  font-size: 24px;
-  line-height: 34px;
+  margin-top: 4.0rem;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
   /* text-align: center; */
 }
 
 
-#page-signup-completed .content-wrapper .enter-app{
+#page-exclude-completed .content-wrapper .enter-app{
   position: absolute;
   left: 0;
   bottom: 15%;
 
-  width: 243px;
-  height: 64px;
+  width: 24.3rem;
+  height: 6.4rem;
   background:#D6487B;
   color: #fff;
   text-decoration: none;
-  border-radius: 20px;
+  border-radius: 2.0rem;
 
   display: flex;
   align-items: center;
@@ -58,6 +58,42 @@
   transition: background-color 0.2s;
 }
 
-#page-signup-completed .content-wrapper .enter-app:hover{
+#page-exclude-completed .content-wrapper .enter-app:hover{
   background: #c74877;
+}
+@media(max-width: 768px){  
+  #page-exclude-completed{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #page-exclude-completed .content-wrapper{
+    width: 70vw;
+    height: 100vh;
+    margin-top: 5rem;
+
+    background: url('../../images/eba.svg') no-repeat 80% center;
+    background-size: contain;
+    background-position: top;
+
+  }
+  
+  #page-exclude-completed .content-wrapper main{
+    padding: 20rem 2rem 8rem 2rem;
+  }
+  #page-exclude-completed .content-wrapper main h1{
+    max-width: 35.0rem;
+    font-size: 4.4rem;
+    font-weight: 900;
+    line-height: 5rem;
+    text-align: left;
+  }
+  #page-exclude-completed .content-wrapper main p{
+    max-width: 35.0rem;
+    margin-top: 2.0rem;
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
 }
